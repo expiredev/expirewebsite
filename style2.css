@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body
+  {
+    background: linear-gradient(#7289DA,#2C2F33);
+  }
+  header
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo
+  {
+    color: #7289DA;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 10px;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+  header .logo:hover
+  {
+    background: #2C2F33;
+    color: #ffffff;
+  }
+  header ul
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li
+  {
+    list-style: none;
+    margin-left: 15px;
+  }
+  header ul li a
+  {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #7289DA;
+    background: #ffffff;
+    border-radius: 20px;
+    font-family: 'Arvo' Poppins;
+  }
+  header ul a:hover
+  {
+    background: #2C2F33;
+    color: #ffffff;
+  }
+  main {
+    font-family: "Emely", sans-serif;
+  }
+  
+  .landing {
+    min-height: 100vh;
+    background: url("./etherybg.png");
+    background-size: cover;
+    padding: 1rem 5rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    min-height: 10vh;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  .nav-links li {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  #logo {
+    font-family: "sans-serif", sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .big-text {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: "bold",sans-serif;
+    color: #ffffff;
+  }
+  
+  .intro {
+    background: #7289DA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    background: #2C2F33;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .intro-text {
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    background: #7289DA;
+    overflow: hidden;
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+  
+                 .container.jsx-3421970892 {
+                  max-width: 1080px;
+                  display: -webkit-box;
+                  display: -webkit-flex;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-flex-direction: column;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  margin: 0 auto;
+                  padding: 1 40px;
+              }
+  
+              .hero.jsx-3421970892 {
+                  margin-top: 0px;
+                  background-color: #2C2F33, 90%;
+                  padding: 3rem 4rem; 
+                  border-radius: 0px;
+  
+                  
+              }
+  
+              .row.jsx-3421970892 {
+                  display: -webkit-box;
+                  display: -webkit-flex;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-flex-direction: row;
+                  -ms-flex-direction: row;
+                  flex-direction: row;
+              }
+  
+              .text.jsx-3421970892 {
+                  width: 600px;
+                  padding: 3rem 0;
+              }
+  
+              .heading.jsx-3421970892 {
+                  white-space: pre-line;
+                  font-size: 52px;
+                  line-height: 66px;
+                  font-family: 'Why Ethery', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  font-weight: 600;
+                  margin-bottom: 20px;
+                  -webkit-letter-spacing: 0;
+                  -moz-letter-spacing: 0;
+                  -ms-letter-spacing: 0;
+                  letter-spacing: 1;
+                  margin-top: 0;
+                  color: #ffffff;
+              }
+  
+              .subheading.jsx-3421970892 {
+                  white-space: pre-line;
+                  font-size: 20px;
+                  line-height: 30px;
+                  color: #ffffff;
+                  margin: 0 0 20px;
+                  font-family: '',sans-serif;
+              }
+  
+              .buttons.jsx-3421970892 {
+                  margin-top: 0px;
+              }
+  
+              .button.jsx-3421970892 {
+                  height: 48px;
+                  line-height: 48px;
+                  display: -webkit-inline-box;
+                  display: -webkit-inline-flex;
+                  display: -ms-inline-flexbox;
+                  display: inline-flex;
+                  -webkit-box-pack: center;
+                  -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                  justify-content: center;
+                  -webkit-align-items: center;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  font-size: 16px;
+                  font-weight: 600;
+                  font-family: 'QUARTZO',sans-serif;
+                  -webkit-text-decoration: none;
+                  text-decoration: solid;
+                  cursor: cell;
+                  background-color:#fff;
+                  color: #7289DA;
+                  padding: 0 24px;
+                  border-radius: 4px;
+                  -webkit-transition: all 180ms ease-out 0s;
+                  transition: all 180ms ease-out 0ms;
+              }
+  
+              .button.jsx-3421970892:hover {
+                  background: #2C2F33;
+                  color: #fff;
+              }
+  
+              .container.jsx-1251392786 {
+                max-width: 1280px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                color: #7289DA;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                margin: 0 auto;
+                padding: 0 40px;
+            }
+  
+            .copyright.jsx-1251392786 {
+                padding-top: 4rem;
+                margin-bottom: 4rem;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                color: #7289DA;
+                display: flex;
+                -webkit-box-pack: justify;
+                -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                font-family: 'Exo',sans-serif;
+                font-size: 14px;
+                line-height: 24px;
+            }
+  
+            ul.jsx-1251392786 {
+                list-style: none;
+                margin: 1;
+                padding: 1;
+            }
+  
+  
+            @media (min-width: 62.5em) {
+                li.jsx-1251392786 {
+                    display:inline-block;
+                }
+  
+                li.jsx-1251392786:not(:last-child) {
+                    margin-bottom: 0;
+                    margin-right: 48px;
+                }
+            }
+  
+            li.jsx-1251392786 a.jsx-1251392786 {
+                color: #7289DA;
+                -webkit-text-decoration: none;
+                text-decoration: none;
+                -webkit-transition: all 180ms ease-out 0s;
+                transition: all 180ms ease-out 0s;
+            }
+  
+            li.jsx-1251392786 a.jsx-1251392786:hover {
+                color: #7289DA;
+            }
+  
+            * {
+              margin: 0px;
+              padding: 0px;
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: 'Poppins', sans-serif;
+            }
+            button {
+              font-family: 'Poppins', sans-serif;
+            }
+            
+            header {
+              display: flex;
+              width: 90%;
+              height: 10vh;
+              margin: auto;
+              align-items: center;
+            }
+            
+            .logo-container,
+            .nav-links,
+            .cart {
+              display: flex;
+            }
+            
+            .logo-container {
+              flex: 1;
+            }
+            .logo {
+              font-weight: 400;
+              margin: 5px;
+            }
+            nav {
+              flex: 0;
+            }
+            .nav-links {
+              justify-content: space-around;
+              list-style: none;
+            }
+            .nav-link {
+              color: #ffffff;
+              font-size: 20px;
+              text-decoration: none;
+              width: 20vh;
+            }
+            .cart {
+              flex: 1;
+              justify-content: flex-end;
+            }
+  
